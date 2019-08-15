@@ -2,11 +2,11 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="/css/reset.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:100,300,400,500,700,800,900display=swap" rel="stylesheet">
-        <title>IECS Data</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">        
+        <title>IECS - Environmental Data</title>
     </head>
     <body>
    
@@ -15,14 +15,15 @@
     <section id="welcomeSpace">
         <h1 class="hidden">Introduction header</h1>
         <img id="welcomeBg" src="images/IECS_illustrated_header_Background.svg" alt="A illustration of a beautiful landscape">
-
+            <!-- header logos -->
             <div id="logoSpace">
-                <img src="images/iecs_logo.png" alt="IECS black logo">
+                <img class="iecsLogo" src="images/iecs_logo.png" alt="IECS black logo">
+                <img class="ccLogo" src="images/IECS_illustrated_CC-black-logo.svg" alt="Cable & Concrete black logo">
             </div>
   
         <div id="centerText">
             <p id="title">Environmentally-friendly solutions for erosion control projects</p>
-            <p id="message">Continue to find out how IECS Cable Concrete can be part of the solution</p>
+            <p id="message">Continue to find out how IECS Cable Concrete can be part of the solution.</p>
             <div id="begin"><p>SCROLL</p></div>
             <img id="scrollBtn" src="images/IECS_illustrated_scrolldownBtn.svg" alt="Scroll down icon">
         </div>
@@ -36,12 +37,12 @@
         <div id="persona">
             <div id="personaText">
                 <p id="michaelText">This is Michael.</p>
-                    <p>He is an engineer contracted to build an erosion control solution for a local waterway project. The specification of the job are:</p>
+                    <p>He is an engineer contracted to build an erosion control solution for a local waterway project. The specifications of the job are:</p>
             </div>
         <div id="scenarioText">
-            <p>He has <span class="number">215m<sup>2</sup></span> to cover, and the terrain would require 
-            <span class="number">114mm</span> deep of CC<sup>35</sup> Cable Concrete blocks compared to  <span class="number">475mm</span> deep of Riprap. He examines 
-            this comparison further, assuming a <span class="number">200km</span> round trip delivery for his job.</p>
+            <p>Amount of terrain to cover (m<sup>2</sup>): <span class="number">215m<sup>2</sup></span><br>
+             Block type depth (mm): <span class="number">CC<sup>35</sup> (114mm)</span><br>
+             Round trip delivery distance (km): <span class="number">200km</span></p>
         </div>
         <div id="scenarioDetail">
             <div class="imageThumb">
@@ -66,7 +67,7 @@
             </div>
         </div>
     </section>
-
+    <!-- 18 to 1 ratio section -->
     <section id="truckRatio">
         <h1 class="hidden">18 to 1 ratio story</h1>
         <div id="ratio">
@@ -92,8 +93,7 @@
     </section>
 
 
-    <!––fuel savings space-->
-
+    <!-- fuel saving section -->
     <section id="fuelSave">
         <h1 class="hidden">Feul Saving</h1>
         <div id="fuelText">
@@ -105,7 +105,6 @@
                 <p class="source"><a href="https://thinkprogress.org/big-trucks-emit-huge-amounts-of-carbon-every-year-the-epa-is-about-to-do-something-about-it-5c402732888/" target="_blank">Source: Thinkprogress</a></p>
         </div>
         <div id="indc1Div">
-        <p id="fuelRef1">Fuel cost as of<br>19/08/04 - Toronto</p>
             <div id="dollarDiv1">
                 <img id="dollarIcon1" src="images/IECS_illustrated_money_icon_white.svg" alt="A bag of money icon">
                     <div id="dollarText1">
@@ -127,8 +126,8 @@
         <img id="scale1" src="images/IECS_illustrated_scale_black.svg" alt="Scale container holding the fuel">   
         <img id ="fuelAnim1" src="images/IECS_illustrated_fuel.svg" alt="A illustration of fuel">
     </div>
+    <p id="fuelRef1">Fuel cost as of 19/08/04 - Toronto</p>
     <div id="indc2Div">
-    <p id="fuelRef2">Fuel cost as of<br>19/08/04 - Toronto</p>
         <div id="dollarDiv2">
                 <img id="dollarIcon2" src="images/IECS_illustrated_money_icon.svg" alt="A bag of money icon">
                 <div id="dollarText2">
@@ -151,25 +150,24 @@
         <img id ="fuelAnim2" src="images/IECS_illustrated_fuel.svg" alt="An illustration of the fuel container">
     </div>
     </section>
-
-    <!––co2 emissions space-->
-
+    <!-- co2 emissions section -->
     <section id="emissions">
-        <h1 class="hideen">Carbon emissions</h1>
+        <h1 class="hidden">Carbon emissions</h1>
         <div id="emissionsFact">
             <h2>Less transporter travel lowers CO2 emissions, minimizing air pollution</h2>
             <p>"The commercial road transportation sector produces 
-                        <span class="number">19%</span> of the total carbon emissions in Canada"</p>
-                        <p class="source"><a href="https://www.nrcan.gc.ca/energy/efficiency/transportation/commercial-vehicles/reports/7607" target="_blank">Source: Natural Resources Canada</a></p>
+                <span class="number">19%</span> of the total carbon emissions in Canada"</p>
+                <p class="source"><a href="https://www.nrcan.gc.ca/energy/efficiency/transportation/commercial-vehicles/reports/7607" target="_blank">Source: Natural Resources Canada</a></p>
         </div>
        <img id="emissionsCloud" src="images/IECS_illustrated_cityscape_clouds.svg" alt="An illustration of city clouds">
        <img id="citytruckRow1" src="images/IECS_illustrated_cityriprap_trucks_2.svg" alt="An illustration of the rip-rap trucks for emissions">
        <img id="citytruckRow2" src="images/IECS_illustrated_cityriprap_trucks_1.svg" alt="An illustration of the rip-rap trucks for emissions">
        <img id="citytruckRow3" src="images/IECS_illustrated_cityriprap_trucks_1.svg" alt="An illustration of the rip-rap trucks for emissions">
             <img id="iecsSmog" src="images/IECS_illustrated_cityscape_iecssmog.svg" alt="An illustration of the rip-rap trucks for emissions">
-            <div id="iecsSmogData">
-                <h2>298g</h2>    
-            </div>
+                <div id="iecsSmogData">
+                    <h2>298g</h2>   
+                </div> 
+            <div id="iecsSmogDiv">
             <img id="riprapSmog" src="images/IECS_illustrated_riprap_smog.svg" alt="A plumm of dark cloud for rip-rap">
             <img id="riprapSmogSmall" src="images/IECS_illustrated_cityscape_iecs_smallsmog.svg" alt="A plum of green smoke for ices">
                 <div id="riprapSmogData">
@@ -178,9 +176,7 @@
        <img id="iecsTruck" src="images/IECS_illustrated_iecs_city_truck.svg" alt="An illustration of ices truck">
        <img id="cityForest" src="images/IECS_illustrated_cityscape_background.svg" alt="A city scape background">
     </section>
-
-    <!––road damage space-->
-
+   <!-- road damage section -->
     <section id="roadDamage">
         <h1 class="hidden">Road damage summary</h1>
         <h2 class="hidden">Road Damage</h2>
@@ -188,32 +184,31 @@
             <!-- column 1 title -->
             <div class="roadDamage-column-1">
                 <h3>Reduced Traffic & Congestion</h3>
-                <p>Michaels' delivery of Riprap would put 17 more trucks on the road. 
-                This causes an increased level of traffic and congestion.
+                <p>A delivery of Riprap would put 18 times more trucks on the road. 
+                This causes an unecessarily high level of traffic and congestion.
                </p>  
             </div>
             <!-- column 2 title -->
             <div class="roadDamage-column-2">
                 <h3>Reduced road damage</h3>
-                <p>Larger numbers of commercial trucks also contribute to continual road damage and repair, 
-                    costing taxpayers and increasing a company’s environmental footprint even further.
+                <p><br>Larger numbers of commercial trucks largely contribute to continuous road damage and repair, draining
+                    taxpayer dollars.
                </p>  
             </div>
             <div class="roadDamage-column-3">
-                <h3>Lower taxes</h3>
-                <p> An estimated $597 per U.S. household per year in 
-                    general tax revenue dedicated to road construction and repair.</p>
-                <p class="source"><a href="https://calpirgedfund.org/reports/caf/who-pays-roads" target="_blank">Source: CALPIRG Education Fund</a></p>
+                <p>"Traffic congestion in Canada's nine largest cities costs an estimated $3.1–$4.6 billion annually because of time delays for drivers and the wasted fuel and GHG emissions"</p>
+                <p class="source"><a href="https://www.tc.gc.ca/eng/policy/anre-menu-3021.htm">Source: Government of Canada</a></p>
             </div>
         </div>
         <div id="street">
         <img id="streetLine" src="images/IECS_illustrated_road_damage_background.svg" alt="An illustration of the road surface">
 
-            <img id="car1" src="images/IECS_illustrated_yellowcar.svg" alt="Illustration of a yellow car">
-            <img id="car2" src="images/IECS_illustrated_taxicar.svg" alt="Illustration of a taxi cab">
-            <img id="car3" src="images/IECS_illustrated_lightgraycar.svg" alt="Illustration of a light gray car">
-            <img id="car4" src="images/IECS_illustrated_lightbluecar.svg" alt="Illustration of a light blue car">
-            <img id="car5" src="images/IECS_illustrated_sandcar.svg" alt="Illustration of a sand car">
+            <img id="car1" src="images/IECS_illustrated_sandcar.svg" alt="Illustration of a rip-rap truck">
+            <img id="car2" src="images/IECS_illustrated_yellowcar.svg" alt="Illustration of a rip-rap truck">
+            <img id="car3" src="images/IECS_illustrated_lightgraycar.svg" alt="Illustration of a rip-rap truck">
+
+            <img id="trafficLoop" src="images/traffic_loop.svg" alt="top lane traffic">
+           
 
             <img id="rrDamageTruck1" src="images/IECS_illustrated_riprap_truck_damage.svg" alt="Illustration of a rip-rap truck">
             <img id="rrDamageTruck2" src="images/IECS_illustrated_riprap_truck_damage.svg" alt="Illustration of a rip-rap truck">
@@ -228,17 +223,14 @@
             <img id="roadCrack5" src="images/IECS_illustrated_roadcrack_5.svg" alt="Illustration of a road crack">
             <img id="roadCrack6" src="images/IECS_illustrated_roadcrack_6.svg" alt="Illustration of a road crack">
             <img id="potHole" src="images/IECS_illustrated_assets_pothole.svg" alt="Illustration of a  pothole">
-            <img id="repairTruck" src="images/IECS_illustrated_tarmac_roller.svg" alt="Illustration of a tarmac roller">
+            <div id="repairTruckDiv">
+                <img id="repairTruck" src="images/IECS_illustrated_tarmac_roller.svg" alt="Illustration of a tarmac roller">
+                <img id="sirenSpinner" src="images/IECS_illustrated_siren.svg" alt="Siren spinning">
+            </div>
             <img id="pylon1" class="repairFade" src="images/IECS_illustrated_construction_cone.svg" alt="Illustration of a construction cones">
             <img id="pylon2" class="repairFade" src="images/IECS_illustrated_construction_cone.svg" alt="Illustration of a construction cones">
             <img id="roadBlock1" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg" alt="Illustrated construction">
             <img id="roadBlock2" class="repairFade" src="images/IECS_illustrated_construction_barrier.svg" alt="Illustrated construction">
-        </div>
-
-        <div id="damageText">
-          <!--  <p>Tax dollars spent on road damage repair from excessive
-                heavy truck traffic is a strain on the economy and can be reduced
-            </p>   -->
         </div>
     </section>
 
@@ -255,7 +247,7 @@
                 </p>
             </div>
             <div id="ccVegIMG">
-                <img class="construction-phase-1" src="images/cc_construction.jpg" alt="cable & concrete onsight images">
+                <img class="construction-phase-1" src="images/cable&concrete_phase_1.jpg" alt="cable & concrete onsight images">
                 <img class="construction-phase-2" src="images/cable&concrete_phase_2.jpg" alt="cable & concrete onsight images">
                 <img class="construction-phase-3" src="images/cable&concrete_phase_3.jpg" alt="cable & concrete onsight images">
             </div>
@@ -264,7 +256,9 @@
         <div id="rrVegDiv">
             <div class="rrCon">
                 <h3>Riprap</h3>
-                <p>Riprap is unstable, making it unsafe for pedestrian traffic and difficult to groom. It's obstrusive to plantlife and restricts biodiversity. When installed by water, it leaves fish at risk of predation. Bare riprap rocks also reflect sunlight in the water and cause temperature increases that could pose a danger to aquatic life.</p>
+                <p>Riprap is unstable, making it unsafe for pedestrian traffic and difficult to maintain. 
+                It's restrictive to plantlife and biodiversity, which can put fish at risk of predation. 
+                Riprap rocks also reflect sunlight into the water and cause temperature increases that could pose a danger an aquatic environment.</p>
             </div>
             <div id="rrVegIMG">
                 <img class="construction-phase-3" src="images/cable&concrete_phase_2.jpg" alt="rip-rap onsight images">
@@ -273,45 +267,59 @@
             </div>
         </div>
     </section>
-    <!––ending summary space-->
+    <!-- ending summary space -->
     <section id="summary" class="section">
         <h1 class="hidden">Final summary</h1>
-        <!-- <div class="summary-title">
-            <h3>Client overview</h3>
-        </div> -->
+        <div id="dashboardTitle">
+            <p class="companySwitch"></p>
+        </div>
         <div id="dashboard">
         <div class="dashBox0">
                 <!-- Fuel  -->
                 <div class="summaryDash">
-                    <h2>Fuel cost</h2>
-                    <img id="level-icon-0" src="images/IECS_illustrated_assets_road_pigBank.svg" alt="fuel level icon">
+                <img id="level-icon-0" src="images/IECS_illustrated_assets_road_pigBank.svg" alt="fuel level icon">
+                    <div id="summaryDashLabel">  
+                        <h2>Fuel cost</h2>
+                        <h2>Savings</h2>
+                    </div>  
                 </div>
                 <div class="amount-numbers">
-                    <p><span id="amount0" class="amount">1990</span>Dollars<p> 
+                    <p><span id="amount0" class="amount">1990</span>Dollars<p>
+                    <p><span id="saving0" class="amount">0</span>Dollars<p>  
                 </div>
             </div>
             <div class="dashBox1">
                 <!-- Fuel  -->
                 <div class="summaryDash">
-                    <h2>Fuel used</h2>
                     <img id="level-icon-1" src="images/IECS_illustrated_assets_fuel_level.svg" alt="fuel level icon">
+                <div id="summaryDashLabel"> 
+                    <h2>Fuel used</h2>
+                    <h2>Savings</h2>
+                </div>
+
                 </div>
                 <div class="amount-numbers">
                     <p><span id="amount1" class="amount">1422</span>Litres<p> 
+                    <p><span id="saving1" class="amount">0</span>Litres<p>  
                 </div>
+                
             </div>
             <!-- Co2 -->
             <div class="dashBox2">
                 <div class="summaryDash">
+                <img id="level-icon-2" src="images/IECS_illustrated_assets_c02.svg" alt="caron emissions level icon">
+                    <div id="summaryDashLabel"> 
                         <h2>Co2 emitted</h2>
-                        <img id="level-icon-2" src="images/IECS_illustrated_assets_c02.svg" alt="caron emissions level icon">
+                        <h2>Savings</h2>
+                    </div>
                 </div>
                 <div class="amount-numbers">
                     <p><span id="amount2" class="amount">5424</span>Grams<p> 
+                    <p><span id="saving2" class="amount">0</span>Grams<p> 
                 </div>
                 </div>
             <!-- Road Damage -->
-            <div class="dashBox3">
+            <!--<div class="dashBox3">
                     <div class="summaryDash">
                         <h2>Road Damage</h2>
                         <img id="level-icon-3" src="images/IECS_illustrated_assets_road_damage.svg" alt="road damage level icon">
@@ -319,7 +327,7 @@
                     <div class="amount-numbers">
                         <p><span id="amount3" class="amount"></span><p> 
                     </div>
-            </div>
+            </div>-->
              <!-- Vegetation -->
         </div>
 
@@ -327,10 +335,13 @@
             <img id="finaleBGrr" src ="images/riprap_result.jpg" alt="Image of rip-rap">
             <img id="finaleBGcc" src ="images/cableconcrete_result.jpg" alt="Image of cable and concret">
             <div class="call-to-actionCon">
+                <div class="ccwhiteLogo">
+                    <img src="images/ccwhite-logo.svg" alt="white cable and concrete logo">
+                </div>
                 <div class="call-to-action">
-                    <h3>Now It’s your turn.</h3>
+                    <h3>The grass is greener on our side.</h3>
                     <div class="keyLine"></div>
-                    <p>We also offer a separate Cable Concrete Calculator tool to estimate the type and amount of Cable Concrete products needed for all of your projects.</p>
+                    <p>Discover how your project can make a difference in many ways by using Cable Concrete. You can use our environmental-footprint calculator to determine the impact of using Cable Concrete for your own project.</p>
                 </div>
             </div>
                 <div class="actionBtn">
@@ -339,7 +350,7 @@
         </div>
         <!-- Footer section -->
         <section class="footerMain">
-            <h1 class="hidden">footer</h1>
+            <h2 class="hidden">footer</h2>
             <footer class="footerCon">
                     <h4 class="contactHeadQuarters">Contact Us:</h4>
                     <p>22295 Hoskins Line Rodney, Ontario Canada, N0L 2C0 Phone: 1-800-821-7462</p>
@@ -358,8 +369,7 @@
         <script src="js/animation.gsap.min.js"></script>
 
         <script src="js/jquery.ScrollMagic.min.js"></script>
-        
-        <!-- link to main javascript file -->
+
         <script src="js/main.js"></script>
     </body>
 </html>
