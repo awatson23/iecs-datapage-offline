@@ -789,7 +789,7 @@ span .number {
     top: 32vh;
     color: #418E3A;
     font-weight: 700;
-    font-size: 4vh;
+    font-size: 3vh;
     width: 10%;
     text-align: center;
 }
@@ -944,7 +944,7 @@ span .number {
     right: 29.5%;
     top: 33vh;
     font-weight: 700;
-    font-size: 4vh;
+    font-size: 3vh;
     color: #39423a;
     text-align: center;
     width: 15%;
@@ -1357,7 +1357,7 @@ span .number {
 
 
 #iecsSmogData {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     font-weight: 700;
     position: absolute;
     bottom: 27vh;
@@ -1441,7 +1441,7 @@ span .number {
 }
 
 #riprapSmogData {
-    font-size: 4.3vw;
+    font-size: 4vw;
     font-weight: 700;
     position: absolute;
     bottom: 45vh;
