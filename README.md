@@ -9,4 +9,4 @@ Double click  "index.html" to display in preferabley chrome or firefox
 
 
 
-*Designed and Developed by Aaron Patterson and Cadence Watson*
+*Designed and Developed by Aaron Paterson and Cadence Watson*
